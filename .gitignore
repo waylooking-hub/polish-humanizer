@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local notes / drafts
+NOTES.md
+DRAFT.md
+.tmp/
+.local/
+
+# Test outputs (jeśli ktoś będzie robił real-world tests)
+docs/REAL-WORLD-TESTS.md
+test-results/
+
+# Sensitive (nie powinno być, ale dla pewności)
+.env
+.env.*
+secrets/
