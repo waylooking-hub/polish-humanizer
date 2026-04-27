@@ -11,6 +11,27 @@ Skil jest w fazie 0.x — API patternów (struktura sekcji, format wyjścia, dec
 
 ---
 
+## [0.1.1] — 2026-04-27 — fix typografii myślnika §20
+
+### Naprawione
+
+- **§20 (Pauza, półpauza, łącznik)** — kompletna przeróbka po external review wskazującym faktologiczne błędy:
+  - Dodano cytat dr. hab. Adama Wolańskiego (PWN poradnia 16280): myślnik ma DWIE alternatywne formy (pauza/półpauza), nie jedną
+  - Dodano regułę konsekwencji w obrębie tekstu (PWN binding rule)
+  - Dodano cytat prof. Mirosława Bańki (PWN poradnia 1528): pauza primary, półpauza fallback
+  - Dodano **najważniejszą regułę**: spacje wokół myślnika obowiązkowe (była pominięta w v0.1.0)
+  - Spaceless `tekst—tekst` (angielski styl) podniesiony do **najsilniejszego AI-tella**
+  - Dodano wyjątek: półpauza w zakresach liczbowych (`1939–1945`) BEZ spacji
+  - Usunięto nieprawidłowe sformułowanie „AP-style nadużycie"
+  - Dodano „mieszanie pauzy/półpauzy w jednym tekście" jako AI-tell
+  - Cytaty PWN bezpośrednio zastępują opinion blogs
+
+### Weryfikacja
+
+Zmiany potwierdzone przez 2 niezależne fact-checki na PWN/Wikipedia/eKorekta24. Reviewer's sugestia „default do półpauzy dla webu" została **świadomie złagodzona** — to nie PWN-norm, tylko opisowy trend Wikipedii (która sama flag-uje „normatywny status nieuregulowany").
+
+---
+
 ## [0.1.0] — 2026-04-26 — pierwsza publiczna wersja
 
 Pierwsza publikacja na GitHubie. Treść skiła powstała w trakcie ~2 dni intensywnej pracy: 7 iteracji wewnętrznych + 6 rund self-audit z pomocą zewnętrznego AI review. To dużo na krótki czas i znaczna część tych iteracji to były regression-by-leftover fixes (jak audit znajdował, że poprzedni audit nie dosięgnął wszystkich plików).
